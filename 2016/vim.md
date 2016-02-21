@@ -5,5 +5,5 @@
 > :wq (shift zz) //w --> write    q --> quit  退出 
 > :w  
 > :n  
-> :q  //正常退出  
-> :q! &nbsp&nbsp&nbsp //退出不保存修改**
+> :q  　　　//正常退出  
+> :q!  　　//退出不保存修改**　
