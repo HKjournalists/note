@@ -1,0 +1,14 @@
+idea  mac快捷键
+
+换到OSX后 IDEA的快捷键改了好多.....无奈note下	
+
+ctrl N or ctrl Enter --- alt insert  插入/新建
+ctrl J  --- ctrl Q   文档说明
+ctrl p  --- 方法参数对照
+option f1 --- view in project tree
+ctrl <-/-> --- editor tab切换
+option cmd <- --- 上一个编辑处
+fn <-/-> --- home end
+option <-/-> --- 
+cmd (shift) + --- folding 折叠 
+
