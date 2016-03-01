@@ -5,7 +5,7 @@
 ![sel](image/Feb/sel.png)
 ![sel_res](image/Feb/sel_res.png)
 > **用mysql url参数:  
-> exception (the default), which throws an SQLException with an SQLState of S1009.
+> exception (the default), which throws an SQLException with an SQLState of S1009.  
 convertToNull, which returns NULL instead of the date.  
 round, which rounds the date to the nearest closest value which is 0001-01-01.**
 

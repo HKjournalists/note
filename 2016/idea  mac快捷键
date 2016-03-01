@@ -9,6 +9,6 @@ option f1 --- view in project tree
 ctrl <-/-> --- editor tab切换
 option cmd <- --- 上一个编辑处
 fn <-/-> --- home end
-option <-/-> --- 
+option <-/-> --- 整体间切换光标
 cmd (shift) + --- folding 折叠 
 
