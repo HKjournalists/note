@@ -23,3 +23,32 @@
 >   
 > 2、当资源目录不配置时？  
 > - - - - >会默认用resources下的资源的文件，其他的目录不会
+
+####二、maven直接部署到本地tomcat
+项目pom文件中插件：
+
+       <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <url>http://localhost:8080/manager/text</url>
+                    <server>local-server</server>
+                    <path>/maven-test</path><!--填build final name,即war包名-->
+                </configuration>
+            </plugin>
+        </plugins>
+        
+tomcat用户权限添加（conf/tomcat-users.xml）： 
+
+    <role rolename="manager-script"/>
+    <role rolename="manager-gui"/>
+    <user username="wangjia" password="wangjia" roles="manager-gui,manager-script"/>
+maven添加server（conf/setting.xml)
+ 
+    <server>
+		<id>local-server</id>
+		<username>wangjia</username>
+		<password>wangjia</password>
+	</server>
