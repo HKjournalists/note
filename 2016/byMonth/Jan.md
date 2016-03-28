@@ -7,7 +7,7 @@
 **---待实验(尼玛这下面就是基础扎不扎实带来的各种小问题啊)**
 ####数据库存null,那么查这个string(null) ,int(null)等字段时,那么resultSet.getString()和getInt()拿到的会是什么(null?0?""?)**设计数据库时,对这样的细节问题如何处理?
 > **1.初步了解到当是Int等数值类型时查出来是NULL的时候,resultset.get的时候会自动将其替换成0(那数据库中NULL和0两种情况如何分辨?)  
-2.ResultSet中的wasNull(),该看看源码了...**  
+2.ResultSet中的wasNull()...**  
 
 ##
 ####数据库设计时,一些可为NULL的字段,选择 default null,还是设置一个默认非空值?
