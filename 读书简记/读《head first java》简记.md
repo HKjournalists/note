@@ -20,3 +20,7 @@
 关于内部类的一些说明：
 > [知乎：Java 中引入内部类的意义？](https://www.zhihu.com/question/21373020/answer/18039107)  
 > [java中内部类总结](http://www.cnblogs.com/nerxious/archive/2013/01/24/2875649.html)
+> 
+
+
+后记：此书浅显易懂，不过年代久远。。
