@@ -30,9 +30,9 @@ tomcat中启动jpda服务
 ###二、IDEA如何操作
 **1、添加remote tomcat server**  
 **2、填写主机信息，IP:PORT(注意这里的port不是jpda调试的端口，而是tomcat访问端口）**
-![sel](image/idea-tomcat/remoteServer.png)
+![sel](../../image/idea-tomcat/remoteServer.png)
 **3、进入startup/connection--->Debug　　看到下面图的信息,把下面的端口改为jpda调试端口8000**
-![sel_res](image/idea-tomcat/changePort.png)
+![sel_res](../../image/idea-tomcat/changePort.png)
 
 ####OK,通过 ./catalina.sh jpda start命令重新启动tomcat后就可以在idea中调试了。。（注意代码版本要和tomcat中部署的一致。。tomcat关闭命令 catalina.sh stop）
 

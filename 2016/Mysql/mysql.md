@@ -1,9 +1,20 @@
-##MySql表设计
-关于表设计的一些技巧和注意点，来自书籍、博客或者个人实际遇到的问题。
+##MySql  
+####查看执行日志.
+> * http://blog.csdn.net/lissdy/article/details/40793187  
+ 
+####timestamp
+> *当插入和更新时，指定的timestamp值为null时，mysql中不予许timestamp为null,但是也不会报语法错误，而是将null值用当前时间替换。
 
-####一、永恒的话题 - -命名。
-注意规范和易理解。  
->* **规范,命名规范需要统一，什么规范不重要，统一重要。目前项目数据库中关于各种命名，基本都是下划线形式**
->* **易理解，让人能看懂最好，好的命名不需要注释，但是有歧义的一定要注释Commment,个人不反对注释。**
+####时间比较
 
-####二、数据类型的选择
+>昨天  
+>
+    WHERE  TO_DAYS(NOW()) - TO_DAYS(create_date) =1
+ 
+>昨天和今天  
+>
+    WHERE  TO_DAYS(NOW()) - TO_DAYS(create_date) =1
+    
+####mysql show processlist命令 详解
+> * http://www.51testing.com/html/96/110296-69546.html 
+    
